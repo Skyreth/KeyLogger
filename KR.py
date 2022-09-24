@@ -6,8 +6,7 @@ import time
 
 print(f"Programme Lance le {date.today()}")
 path = "output.txt"
-url = "https://discord.com/api/webhooks/905780173968900116/FHrPXPRqhlEgqIjyjkVL-1faByw3_sMnyhhToq7kVksw8_a9_oz" \
-      "-CsHQKiTP38wGupfW "
+url = "" // put your discord webhook link
 webhook = SyncWebhook.from_url(url)
 out = ""
 f = open(path, "a")
